@@ -1,3 +1,6 @@
 [submodule "libraries/sledgehammer"]
 	path = libraries/sledgehammer
 	url = https://JsMarq96@github.com/JsMarq96/Sledgehammer.git
+[submodule "libraries/cglm"]
+	path = libraries/cglm
+	url = https://github.com/recp/cglm.git
