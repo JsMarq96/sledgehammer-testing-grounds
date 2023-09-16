@@ -14,4 +14,4 @@ add_executable(sledgehammer_test ${C_SOURCES} ${H_SOURCES} ${SUBFOLDER_H_SOURCES
 set_target_properties(sledgehammer_test PROPERTIES C_STANDARD 23 LINKER_LANGUAGE C OUTPUT_NAME "phys_sandbox")
 
 add_subdirectory(libraries/sledgehammer)
-target_link_libraries(sledgehammer_test sledgehammer)
+target_link_libraries(sledgehammer_test cglm sledgehammer)
