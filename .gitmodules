@@ -4,3 +4,9 @@
 [submodule "libraries/cglm"]
 	path = libraries/cglm
 	url = https://github.com/recp/cglm.git
+[submodule "libraries/glfw"]
+	path = libraries/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "libraries/gl3w"]
+	path = libraries/gl3w
+	url = https://github.com/skaslev/gl3w.git
